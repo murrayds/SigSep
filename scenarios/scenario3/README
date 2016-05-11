@@ -1,0 +1,7 @@
+Purpose: Quantitatively evaluate the effectiveness of an ‘easy’ or ‘ideal’ real-world audio recording. Ideal in this case meaning a low quality recording (obtained with raspberry pi device) of beehive audio, but with a single spectrally dissimilar interfering background source. 
+
+Audio Clips:
+Target: Recording of beehive audio obtained from the App State Computer Science’s beemon server. Clips will be intentionally chosen to be from a day where the hive is active and there are minimal interfering sources. Clip will be separated into two chunks, one for training and one for creating the mixture and testing. 
+Interference: This will be a recording of a single bee, flying by or standing atop the microphone and causing some distortion and overpowering the greater hive sound. Such “flybys” are common in the recorded audio. I will use as isolated of a flyby examples as I can find, and I will use different examples to serve as the target and interference.
+
+Experimental Process: Train on one example of the beehive audio and the flyby audio. Mix the other examples of the flyby and beehive audio together, and attempt to unmix them using the algorithm. Evaluate by comparing separated signals to their ground truth counterparts. 

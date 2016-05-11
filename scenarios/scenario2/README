@@ -1,0 +1,7 @@
+Purpose: To demonstrate that in an ideal case, in the right environment, and with the right equipment, a mixture of beehive audio and a single spectrally dissimilar background source can be unmixed. To provide a baseline for the quantitative metrics to compare the real-world examples to. 
+
+Audio Clips:
+Target: Isolated and high quality audio recording of beehive sound that was pulled off the internet. Bees are loud and active. Split into two different four second clips, one for training, and one to be used to create the mixture. 
+Interference: Isolated and high quality recording of birdsong. Birds are loud and active, multiple different types of bird calls in the recording. Spectrally dissimilar to bees. Split into two different 4 second clips, one for training, and one used to create the mixture
+
+Experimental Process: Train on the designated target and interference clips. Then create a mixture using different clips for each target and interference. Unmix the mixture and then compare output back to their ground truth counterparts. 

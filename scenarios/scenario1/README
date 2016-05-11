@@ -1,0 +1,7 @@
+Purpose: To establish that the separation algorithm works, that the code is free of crippling bugs, and to establish a baseline of what a good separation looks like.
+
+Audio Clips
+Target: Isolated and high quality recording of a single male voice, as used by Dr. Smaragdis in his presentations.
+Interference: Isolated and high quality recording of windchimes, as used by Dr. Smaragdis in his presentations. 
+
+Experimental Process: Train on target and interference clips. Mix the training clips together, then separate the resulting mixture. Compare separated signals back with original audio clips. In this example, the audio used in the separation stage is the same audio used in the training stage.

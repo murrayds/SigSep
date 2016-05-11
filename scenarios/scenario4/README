@@ -1,0 +1,7 @@
+Purpose: Quantitatively evaluate another real-world case to ensure that scenario 3 was not a cherry picked example. General idea is the same as scenario 3, just with a different interfering sound. 
+
+Audio Clips:
+Target: Recording of beehive audio obtained from the App State Computer Science’s beemon server. Clips will be intentionally chosen to be from a day where the hive is active and there are minimal interfering sources. Clip will be separated into two chunks, one for training and one for creating the mixture and testing. 
+Interference: For this scenario, the interference will be rain striking the hive. Rain, while less common than flybys, can confound potentially hours worth of data, depending on the intensity and duration of the rainfall. The sample of rain is as isolated as I can find, and is again split into two different examples for target and interference. 
+
+Experimental Process: Train on one example of the beehive audio and the rain audio. Mix the other examples of the rain and beehive audio together, and attempt to unmix them using the algorithm. Evaluate by comparing separated signals to their ground truth counterparts. 

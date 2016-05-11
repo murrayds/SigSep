@@ -1,0 +1,7 @@
+Purpose: Again, we will quantitatively evaluate another type of common interfering source. The combinations of scenarios 3, 4, and 5 will demonstrate the effectiveness of the algorithm with several types of audio. 
+
+Audio Clips
+Target: Recording of beehive audio obtained from the App State Computer Science’s beemon server. Clips will be intentionally chosen to be from a day where the hive is active and there are minimal interfering sources. Clip will be separated into two chunks, one for training and one for creating the mixture and testing. 
+Interference: The recording equipment used in the recordings is of low quality and typically can introduce static and other electronic noise into recordings. The interference in this scenario will be an isolated (as isolated as possible) example of microphone static. The sample will be split into two chunks, one for training and the other for creating the mixture and testing. 
+
+Experimental Process: Train on one example of the beehive audio and the static audio. Mix the other examples of the static and beehive audio together, and attempt to unmix them using the algorithm. Evaluate by comparing separated signals to their ground truth counterparts. 

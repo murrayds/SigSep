@@ -1,0 +1,6 @@
+Purpose: The mixtures in scenarios 3-5 were synthetic, in that they were created by mixing together an example of isolated beehive audio and isolated background (each recorded from under real-world conditions). Synthetic mixtures were used as that is the only way to get quantitative metrics. In scenarios 6, 7, and 8, we will use a semi-supervised algorithm to learn the beehive signal, and then learn the interference from the mixture itself. We can then separate the mixture, and get the resulting audio files. I will arrange a method of qualitatively evaluating the resulting audio files to gauge how well the real-world separation works. 
+
+Experimental Process: Using pure beehive audio as the known target, separate three mixtures: one with a flyby, another with rain, and the third with static. Qualitatively compare output with synthetic examples. 
+
+
+Upon completion we will have qualitative and quantitative metrics of a wide variety of real-world examples, allowing us to interpret not only how well the algorithm works in the real world, but also how it performs on certain examples of real-world interference. 
